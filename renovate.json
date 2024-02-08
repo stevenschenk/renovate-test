@@ -5,11 +5,11 @@
   },
   "packageRules": [
     {
-      "description": "Don't upgrade to Angular 17.1 (yet)",
+      "description": "Don't upgrade to Angular 17(yet)",
       "matchPackageNames": [
         "angular"
       ],
-      "allowedVersions": "<17.1.0",
+      "allowedVersions": "<17.0.0",
       "groupName": "frontend-libraries"
     },
     {
